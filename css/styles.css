@@ -155,7 +155,7 @@ section {
 
 .hero-text {
   /* outline: solid tomato; */
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   text-align: center;
   color: var(--main-background-color);
   font-weight: 900;
@@ -268,7 +268,7 @@ section {
 }
 
 .team-name {
-  padding-top: 30px;
+  margin-bottom: 10px;
   text-align: center;
   color: var(--main-color-text);
   font-weight: 500;
@@ -278,8 +278,6 @@ section {
 }
 
 .team-prof {
-  padding-top: 10px;
-  padding-bottom: 30px;
   text-align: center;
   color: var(--color-text);
   font-weight: 400;
@@ -288,6 +286,10 @@ section {
   letter-spacing: 0.03em;
 }
 
+.name {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .project-list {
   border: 1px solid #eeeeee;
 }
@@ -301,6 +303,7 @@ section {
 }
 
 .logo-foot {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -322,6 +325,12 @@ section {
   list-style: none;
 }
 
+.addres {
+  margin-top: 20px;
+}
+.addres-list li {
+  margin-bottom: 9px;
+}
 .tel-link {
   font-style: normal;
   font-weight: 400;
