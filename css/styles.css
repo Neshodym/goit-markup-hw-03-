@@ -328,9 +328,10 @@ section {
 .addres {
   margin-top: 20px;
 }
-.addres-list li {
+.addres-list li:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .tel-link {
   font-style: normal;
   font-weight: 400;
